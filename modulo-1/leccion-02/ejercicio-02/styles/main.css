@@ -1,10 +1,15 @@
+p {
+  color: rgb(77, 77, 77);
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+}
 h1 {
   color: blueviolet;
   font-family: Verdana, sans-serif;
   font-size: 40px;
 }
 h2 {
-  color: red;
+  color: yellowgreen;
   font-family: Verdana, sans-serif;
   font-size: 30px;
 }
@@ -14,7 +19,38 @@ h3 {
   font-size: 25px;
 }
 h4 {
-    color: green;
-    font-family: Verdana, sans-serif;
-    font-size: 18px;
+  color: green;
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+}
+.text-link {
+  color: red;
+}
+.text-link:hover {
+  background: red;
+  color: yellow;
+}
+#add-user {
+  font-size: 24px;
+}
+.button {
+  background-color: grey;
+  border-radius: 20px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 1em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.button--new {
+  background-color: rgb(79, 163, 79);
+}
+
+.button--rename {
+  background-color: rgb(77, 162, 231);
+}
+
+.button--delete {
+  background-color: rgb(248, 66, 66);
 }
