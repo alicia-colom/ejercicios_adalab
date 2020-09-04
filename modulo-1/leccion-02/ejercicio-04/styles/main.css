@@ -71,3 +71,15 @@ footer {
   font-size: 22px;
   font-style: italic;
 }
+.page-error .page-error-styles .principal {
+  font-size: 10px;
+}
+.page-error {
+  font-size: 30px;
+}
+.page-error-styles {
+  color: yellow;
+}
+.principal {
+  background: #000;
+}
