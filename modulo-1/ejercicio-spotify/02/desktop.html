@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>MI SPOTIFY</title>
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
 
   <body>
     <header class="header">
-      <img src="./images/logo.png" alt="Logo Spotify" width="100px" />
+      <img src="./images/logo.png" alt="Logo Spotify" class="logo" />
       <nav>
-        <ul>
-          <li class="main-menu">
+        <ul class="main-menu">
+          <li class="list">
             <a
               href="https://www.spotify.com/es/premium/?checkout=false"
               alt="Premium"
@@ -21,7 +21,7 @@
               >Premium</a
             >
           </li>
-          <li class="main-menu">
+          <li class="list">
             <a
               href="https://support.spotify.com/es/?_ga=2.41137190.569153060.1599474526-1145077083.1599234827"
               alt="Ayuda"
@@ -29,17 +29,18 @@
               >Ayuda</a
             >
           </li>
-          <li class="main-menu">
+          <li class="list">
             <a href="https://www.spotify.com/es/download/linux/" alt="Descargar" target="_blank"
               >Descargar</a
             >
           </li>
-          <li class="main-menu">
+
+          <li class="list">
             <a href="https://www.spotify.com/es/signup/" alt="Registrarse" target="_blank"
               >Registrarse</a
             >
           </li>
-          <li class="main-menu">
+          <li class="list">
             <a
               href="https://accounts.spotify.com/es-ES/login?continue=https:%2F%2Fwww.spotify.com%2Fes%2Faccount%2Foverview%2F"
               alt="Iniciar sesión"
@@ -62,7 +63,6 @@
             >VER PLANES</a
           >
         </button>
-    </br>
         <small
           >Rigen términos y condiciones. Los tres meses gratis no están disponibles para usuarios
           que ya hayan probado Premium.
@@ -70,18 +70,14 @@
       </section>
       <section class="section-2">
         <h3>¿Por qué pasarte a Premium?</h3>
-        <ul>
+        <div class="benefits">
           <article>
-            <img
-              src="./images/benefit-1.png"
-              alt="Descarga música"
-              width="100px"
-            />
+            <img src="./images/benefit-1.png" alt="Descarga música" class="images-benefits" />
             <h4>Descarga música.</h4>
             <p>Llévala siempre contigo.</p>
           </article>
           <article>
-            <img src="./images/benefit-2.png" alt="Sin anuncios" width="100px"  />
+            <img src="./images/benefit-2.png" alt="Sin anuncios" class="images-benefits" />
             <h4>Sin anuncios.</h4>
             <p>Disfruta de música sin interrupciones.</p>
           </article>
@@ -89,7 +85,7 @@
             <img
               src="./images/benefit-3.png"
               alt="Escucha lo que quieras"
-              width="100px"
+              class="images-benefits"
             />
             <h4>Escucha lo que quieras.</h4>
             <p>Incluso en el móvil.</p>
@@ -98,15 +94,15 @@
             <img
               src="./images/benefit-4.png"
               alt="Salta todas las canciones que quieras"
-              width="100px"
+              class="images-benefits"
             />
             <h4>Salta todas las canciones que quieras.</h4>
             <p>Simplemente dale a siguiente.</p>
           </article>
-        </ul>
+        </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer>
       <nav>
         <ul>
           <li class="footer-menu">

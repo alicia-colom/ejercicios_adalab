@@ -1,0 +1,59 @@
+h1 {
+  color: purple;
+}
+
+/* ejercicio 1 */
+
+.list-01 {
+}
+
+.item-list-01 {
+  display: inline;
+  padding: 12px;
+}
+
+/* ejercicio 2 */
+
+.padre-02 {
+  background: grey;
+}
+
+.hijo-02 {
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+}
+
+.hijo1-02 {
+  background: red;
+  padding: 30px;
+  transform: translate(100px, 50px);
+}
+
+.hijo2-02 {
+  background: blue;
+  padding: 30px;
+  transform: translate(-150px, -320px);
+}
+
+.hijo3-02 {
+  background: yellow;
+  padding: 30px;
+  transform: translate(180px, -240px);
+}
+
+/* ejercicio 3 */
+
+.header-03 {
+  background: lightcoral;
+  position: static;
+}
+
+.paragraph-03 {
+  width: 250px;
+  height: 250px;
+}
+
+.paragraph1-03 {
+  overflow-y: hidden;
+}

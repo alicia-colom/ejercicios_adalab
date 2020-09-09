@@ -1,6 +1,6 @@
 * {
-  /*border: 2px solid red;
-  margin: 2px;*/
+  /* border: 2px solid red;
+  margin: 2px; */
   font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
@@ -32,54 +32,74 @@ h6 {
 p {
   font-size: 12px;
 }
-.header {
+header {
   background-color: black;
   color: white;
   font-size: 12px;
   font-weight: bold;
+  height: 10vh;
+  padding: 15px;
 }
 small {
-  font-size: 8px;
+  font-size: 10px;
   color: white;
 }
 
-/* reacción de los links del menú principal */
-.header a:visited {
+/* reacción links menú principal */
+
+header a:visited {
   color: white;
 }
-.header a:hover {
+
+header a:hover {
   color: #1fd760;
 }
+
 /* FIN */
 
 .main-menu {
   display: inline;
+  padding: 12px;
 }
 
 .section-1 {
   background-color: #509bf5;
   background-image: url(../images/premium_dancer.png);
-  padding-right: 30%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 50vh;
 }
+
 .section-2 {
   text-align: center;
+}
+
+.benefits {
   margin-top: 0px;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-arounds;
 }
+
 article {
-  display: inline-block;
-  width: 24%;
+  width: 25%;
 }
-.footer {
+
+footer {
   background-color: black;
   color: white;
   font-size: 10px;
+  height: 10vh;
 }
+
 .footer-menu {
   display: inline;
 }
-/* reacción de los links del menú de footer */
 
-.footer a:hover {
+/* reacción links menú footer */
+
+footer a:hover {
   color: grey;
 }
 /* FIN */
