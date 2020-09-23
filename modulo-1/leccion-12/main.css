@@ -1,0 +1,35 @@
+.grid-1 {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 10px;
+  background-color: silver;
+}
+
+.item {
+  background-color: turquoise;
+}
+
+.item-1,
+.item-2,
+.item-3 {
+  grid-column: span 2;
+  grid-row: 1 / 2;
+}
+
+.item-sub-6 {
+}
+
+.item-sub-4 {
+}
+
+.item-sub-3 {
+}
+
+.item-sub-2 {
+}
+
+.item-sub-1 {
+}

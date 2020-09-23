@@ -1,0 +1,46 @@
+/* html,
+body {
+  margin: 0;
+  height: 100%;
+} */
+.container {
+  background: pink;
+  display: flex;
+  height: 200px;
+  justify-content: space-between;
+  height: 100%;
+  max-height: 250px;
+}
+.main,
+.aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: bold 16px "Comic Sans MS", arial, sans-serif;
+}
+.main {
+  background: cyan;
+  flex: 5 20;
+}
+.cosa {
+  background: yellow;
+  flex-grow: 5;
+  flex-shrink: 20;
+}
+.aside {
+  background: deeppink;
+  width: 50%;
+  max-width: 320px;
+}
+
+/* ejercicio 4 */
+
+.box {
+  background: red;
+  height: 100px;
+}
+@media all and (min-width: 550px) {
+  .box {
+    background: blue;
+  }
+}

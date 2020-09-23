@@ -1,5 +1,5 @@
 * {
-  /*   border: 2px solid red;
+  /* border: 2px solid red;
   margin: 2px; */
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -31,6 +31,10 @@ h6 {
 }
 p {
   font-size: 12px;
+}
+
+small {
+  color: white;
 }
 
 /* HEADER */
@@ -78,15 +82,9 @@ p {
 
 .section-1 {
   background-color: #509bf5;
-  background-image: url(../images/premium_dancer.png);
-  background-repeat: no-repeat;
-  background-position: top right;
+  background-image: none;
   padding: 20px;
   height: 50vh;
-}
-
-small {
-  color: white;
 }
 
 .section-2 {
@@ -96,20 +94,15 @@ small {
 
 .benefits {
   margin-top: 0px;
-  height: 50vh;
   display: flex;
-  flex-direction: row;
-  justify-content: space-arounds;
+  flex-direction: column;
+  align-items: center;
 }
 
-article {
-  width: 25%;
-}
-
-.images-benefits {
+/* .images-benefits {
   width: 100%;
   max-width: 200px;
-}
+} */
 
 footer {
   background-color: black;
@@ -118,13 +111,37 @@ footer {
   height: 10vh;
 }
 
+footer a:hover {
+  color: grey;
+}
+
 .footer-menu {
   display: inline;
 }
 
-/* reacción links menú footer */
+/* media queries */
 
-footer a:hover {
-  color: grey;
+@media all and (min-width: 768px) {
+  .benefits {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .section-1 {
+    background-image: url(../images/premium_dancer.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+
+  article {
+    width: 50%;
+  }
 }
-/* FIN */
+
+@media all and (min-width: 1200px) {
+  .benefits {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
