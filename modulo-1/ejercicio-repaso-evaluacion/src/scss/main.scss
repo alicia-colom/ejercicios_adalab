@@ -1,24 +1,60 @@
-.page {
+* {
+	margin: 0px;
+	padding: 0px;
+}
 
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	@media all and (min-width: 768px) {
+		border-left: #666666 25px solid;
+	}
 }
 
 .header {
+	background-color: lightgrey;
 
+	&__img {
+		border-radius: 50%;
+	}
 }
 
 .main {
+	background-color: lightblue;
 
+	display: flex;
+	flex-direction: column;
+	@media all and (min-width: 768px) {
+		flex-direction: row;
+	}
 }
 
 .section {
 	&__article {
+		padding: 20px;
 	}
 }
 
 .aside {
-
+	background-color: lightpink;
+	display: flex;
+	flex-direction: column;
+	@media all and (min-width: 768px) {
+		margin-top: -85px;
+	}
+	&__author {
+    width: 50%;
+		&--img {
+			@media all and (min-width: 768px) {
+				width: 150px;
+				border-radius: 50%;
+			}
+		}
+	}
+	&__menus {
+    width: 50%;
+	}
 }
 
 .footer {
-
+	background-color: lightgreen;
 }
