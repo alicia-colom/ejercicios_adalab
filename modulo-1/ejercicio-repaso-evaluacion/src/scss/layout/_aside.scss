@@ -1,0 +1,23 @@
+.aside {
+	display: flex;
+	flex-direction: column;
+	z-index: 1;
+	@media all and (min-width: 768px) {
+		margin-top: -85px;
+	}
+
+	&__author {
+		width: 50%;
+
+		&--img {
+			@media all and (min-width: 768px) {
+				width: 150px;
+				border-radius: 50%;
+			}
+		}
+	}
+
+	&__menus {
+		width: 50%;
+	}
+}

@@ -1,0 +1,16 @@
+.main {
+	/* 	background-color: lightblue; */
+	border-top: lightgrey 2px solid;
+	display: flex;
+	flex-direction: column;
+
+	@media all and (min-width: 768px) {
+		flex-direction: row;
+	}
+}
+
+.section {
+	&__article {
+		padding: 20px;
+	}
+}

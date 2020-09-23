@@ -1,5 +1,7 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+.header {
+	/* 	background-color: lightgrey; */
+
+	&__img {
+		width: 300px;
+	}
 }
