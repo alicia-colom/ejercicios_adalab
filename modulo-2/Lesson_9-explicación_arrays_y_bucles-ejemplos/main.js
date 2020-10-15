@@ -16,6 +16,21 @@ console.log("Usando POP:");
 console.log(miLista);
 
 
+// REVERSE --> recorre el array en sentido contrario
+miLista.reverse();
+console.log("Usando REVERSE:");
+console.log(miLista);
+console.log("*aplico de nuevo REVERSE para dejar mi array al derecho:");
+miLista.reverse();
+console.log(miLista);
+
+
+/* // CONCAT --> ...
+miLista.concat();
+console.log("Usando CONCAT:");
+console.log(miLista); */
+
+
 // UNSHIFT --> añade el parámetro como primer elemento del array
 miLista.unshift("x");
 console.log("Usando UNSHIFT:");
